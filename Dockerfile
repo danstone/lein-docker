@@ -1,5 +1,5 @@
 
-FROM jdk7
+FROM danstone/jdk7
 
 RUN apt-get update
 RUN apt-get install -y wget maven
