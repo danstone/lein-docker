@@ -1,5 +1,5 @@
 
-FROM danstone/jdk7
+FROM danstone/jdk7-docker
 
 RUN apt-get update
 RUN apt-get install -y wget maven
